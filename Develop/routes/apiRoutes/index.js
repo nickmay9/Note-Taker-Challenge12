@@ -31,13 +31,35 @@ function createNewNote(note, notesArray = []) {
     return note;
 }
 
+function findById(id, notesArray) {
+    const result = notesArray.filter(note => note.id === id)[0];
+    return result;
+}
+
 router.get('/notes', (req, res) => {
     return res.json(notes);
 });
 
+router.delete('/notes/:id', (req, res) => {
+    const deleteIndex = notes.indexOf(findById(req.params.id, notes));
+
+    if(deleteIndex > -1){
+        notes.splice(deleteIndex, 1);
+
+        fs.writeFileSync(
+            path.join(__dirname, '../../db/db.json'),
+            JSON.stringify({ notes }, null, 2)
+        );
+
+        return res.json(notes);
+    } else {
+        return res.send(404);
+    }
+});
+
 router.post('/notes', (req, res) => {
     if(!validateNote(req.body)){
-        return res.status(400).sned('The note is not properly filled out.');
+        return res.status(400).send('The note is not properly filled out.');
     } else {
         const note = createNewNote(req.body, notes);
         return res.json(note);
