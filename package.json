@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nickmay9/Note-Taker-Challenge12#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "generate-unique-id": "^2.0.1"
   }
 }
