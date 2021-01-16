@@ -1,24 +1,14 @@
 {
-  "name": "Note-Taker-Challenge12",
+  "name": "note-taker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nickmay9/Note-Taker-Challenge12.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/nickmay9/Note-Taker-Challenge12/issues"
-  },
-  "homepage": "https://github.com/nickmay9/Note-Taker-Challenge12#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "generate-unique-id": "^2.0.1"
+    "express": "^4.16.4"
   }
 }
