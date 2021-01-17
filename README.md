@@ -8,14 +8,15 @@ Note taker application using Express.js that will save and retrieve note data fr
 ## Table of Contents
 * [Screenshot](#screenshot)
 * [Walkthrough Link](#walkthroughLink)
+* [Deployed Page](#deployedpage)
 * [License](#license)
 * [Questions](#questions)
 
 ## Screenshot
 ![screenshot](note-taker-screenshot.png)
 
-## Walkthrough Link
-[link to walkthrough video]()
+## Deployed Page
+[link to deployed site](https://vast-river-51940.herokuapp.com/)
 
 ## License 
 This is free and unencumbered software released into the public domain.
