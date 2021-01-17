@@ -7,8 +7,7 @@ Note taker application using Express.js that will save and retrieve note data fr
 
 ## Table of Contents
 * [Screenshot](#screenshot)
-* [Walkthrough Link](#walkthroughLink)
-* [Deployed Page](#deployedpage)
+* [Deployed](#deployed)
 * [License](#license)
 * [Questions](#questions)
 
