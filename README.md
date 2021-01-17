@@ -14,7 +14,7 @@ Note taker application using Express.js that will save and retrieve note data fr
 ## Screenshot
 ![screenshot](note-taker-screenshot.png)
 
-## Deployed Page
+## Deployed
 [link to deployed site](https://vast-river-51940.herokuapp.com/)
 
 ## License 
